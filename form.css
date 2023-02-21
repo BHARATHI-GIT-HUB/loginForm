@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form {
+  max-width: 400px;
+  min-height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-header {
+  text-align: center;
+}
+.form-inputFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} */
+
+form {
+  max-width: 350px;
+  min-height: 200px;
+
+  box-shadow: 0 4px 8px 0 rgb(148, 146, 146), 0 6px 20px rgb(168, 164, 164);
+
+  border-radius: 15px;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-body,
+.form-inputFields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  padding: 6px 90px;
+  background-color: rgb(108, 148, 148);
+  border: none;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3px;
+  font-size: small;
+  align-self: self-start;
+  margin-top: -22px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
