@@ -56,10 +56,13 @@ form {
   text-align: center;
 }
 
-.form-inputFields {
+.form-inputFields,
+.form-body {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
 }
 
 input {
@@ -71,11 +74,12 @@ button {
   background-color: aqua;
   border: none;
   border-radius: 5px;
-  padding: 5px 0px;
+  padding: 5px 85px;
 }
 
 .form-footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 10px;
